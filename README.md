@@ -2,6 +2,8 @@
 
 A command-line tool for analyzing and optimizing database queries for SQL.
 
+![demo.gif](demo.gif)
+
 ## Installation
 
 ```bash
