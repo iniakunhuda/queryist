@@ -1,0 +1,21 @@
+{
+    "name": "queryist",
+    "version": "1.0.0",
+    "description": "CLI tool for database query analysis and optimization",
+    "main": "bin/db-analyzer.js",
+    "bin": {
+      "db-analyzer": "./bin/db-analyzer.js"
+    },
+    "scripts": {
+      "start": "node bin/db-analyzer.js"
+    },
+    "dependencies": {
+      "mysql2": "^3.6.0",
+      "pg": "^8.11.3",
+      "chalk": "^4.1.2",
+      "cli-table3": "^0.6.3",
+      "inquirer": "^8.2.6",
+      "ora": "^5.4.1",
+      "figlet": "^1.7.0"
+    }
+}
